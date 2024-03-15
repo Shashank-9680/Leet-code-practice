@@ -14,8 +14,8 @@ public:
             }
             v.push_back(count);
         }
-        // auto max=max_element(v.begin(),v.end());
-        sort(v.rbegin(),v.rend());
-        return v[0];
+        int max=*max_element(v.begin(),v.end());
+        // sort(v.rbegin(),v.rend());
+        return max;
     }
 };
