@@ -1,15 +1,12 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        unordered_map<int,int>m;
-        for(int i=0;i<nums.size();i++){
-            m[nums[i]]++;
+         int xor_result = 0;
+        for (int num : nums) {
+            xor_result ^= num;
         }
-        for(auto x:m){
-            if(x.second==1){
-                return x.first;
-            }
-        }
-        return -1;
+        return xor_result;
+    
+      
     }
 };
