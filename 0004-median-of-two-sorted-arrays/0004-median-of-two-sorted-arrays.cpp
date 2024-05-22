@@ -10,7 +10,7 @@ public:
         int low=0;
         int high=n1;
         while(low<=high){
-            int mid1=(low+high)>>1;
+            int mid1=(low+high)/2;
             int mid2=left-mid1;
              int l1=INT_MIN;
         int l2=INT_MIN;
