@@ -5,18 +5,18 @@ class StockSpanner {
 public:
     
     StockSpanner() {     
-     count=-1;
+     count=0;
     }
     
     int next(int price) {
-       count++;
+       
         arr.push_back(price);
         while (!s.empty() && arr[s.top()] <= price) {
             s.pop();
         }
         int result = (s.empty()) ? count + 1 : count - s.top();
         s.push(count);
-        
+        count++;
         return result;
         
     }
