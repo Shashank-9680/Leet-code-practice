@@ -63,11 +63,11 @@ public:
             for(int j=0;j<m;j++){
                 if(grid[i][j]==2){
                     q.push({{i,j},0});
-                    vis[i][j]=2;
+                    // vis[i][j]=2;
                 }
-                if(grid[i][j]==0){
-                    vis[i][j]=0;
-                } 
+                // if(grid[i][j]==0){
+                //     vis[i][j]=0;
+                // } 
             }
         }
         int time=0;
@@ -90,7 +90,7 @@ public:
                     if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && grid[nrow][ncol] == 1) {
                         grid[nrow][ncol] = 2;
                        q.push({{nrow, ncol}, t + 1});
-                         vis[nrow][ncol]=2;
+                         // vis[nrow][ncol]=2;
                     }
                 }
             
