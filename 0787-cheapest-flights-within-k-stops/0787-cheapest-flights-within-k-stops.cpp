@@ -17,7 +17,7 @@ public:
             if(stop>k) continue;
             for(auto it:adj[node]){
                 int adjnodes=it.first;
-                if(dis+it.second<dist[adjnodes]&&stop<=k){
+                if(dis+it.second<dist[adjnodes]){
                     dist[adjnodes]=dis+it.second;
                     q.push({stop+1,{adjnodes,dis+it.second}});
                 }
