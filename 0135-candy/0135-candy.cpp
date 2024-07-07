@@ -4,7 +4,7 @@ public:
         int n=ratings.size();
         
      vector<int>left(n,1);  
-        vector<int>right(n,1);
+      
         int value=1;
         for(int i=1;i<n;i++){
             if(ratings[i]>ratings[i-1]){
@@ -15,20 +15,20 @@ public:
                value=1; 
             }
         }
-        value=1;
-        for(int i=n-2;i>=0;i--){
-            if(ratings[i]>ratings[i+1]){
-                value++;
-                right[i]=value;
-            }
-            else{
-                value=1;
-            }
-        }
+        int right=1;
+      
         int sum=0;
-        for(int i=0;i<n;i++){
-            sum=sum+max(left[i],right[i]);
+       
+        for (int i = n - 2; i >= 0; i--) {
+            if (ratings[i] > ratings[i + 1]) {
+                right++;
+            } else {
+                right = 1;
+            }
+            sum += max(left[i], right);
         }
-        return sum;
+
+       
+        return sum+max(1,left[n-1]);
     }
 };
