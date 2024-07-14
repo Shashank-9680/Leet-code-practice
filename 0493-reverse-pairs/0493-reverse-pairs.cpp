@@ -40,9 +40,7 @@ class Solution {
             count += (right - (m + 1));
         }
     }
-
-public:
-    void mergeSort(int arr[], int l, int r) {
+     void mergeSort(int arr[], int l, int r) {
         if (l >= r) return;
         int m = (l + r) / 2;
         
@@ -51,6 +49,9 @@ public:
         countPairs(arr, l, m, r);
         merge(arr, l, m, r);
     }
+
+public:
+   
 
     int reversePairs(vector<int>& nums) {
         int n=nums.size();
