@@ -5,8 +5,8 @@ public:
         int m=grid[0].size();
         vector<vector<int>>v(n,vector<int>(m,INT_MAX));
         queue<pair<int,pair<int,int>>>q;
-        q.push({1,{0,0}});
-        v[0][0]=1;
+        q.push({0,{0,0}});
+        v[0][0]=0;
             if (grid[0][0] != 0 || grid[n-1][m-1] != 0) return -1;
         while(!q.empty()){
             int weight=q.front().first;
@@ -28,7 +28,7 @@ public:
        
        }     
         }
-         return (v[n-1][m-1] == INT_MAX) ? -1 : v[n-1][m-1];
+         return (v[n-1][m-1] == INT_MAX) ? -1 : v[n-1][m-1]+1;
        
     }
 };
