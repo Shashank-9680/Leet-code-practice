@@ -21,7 +21,7 @@ public:
             int col = q.top().second.second;
             q.pop();
 
-            if (row == n - 1 && col == m - 1) return weight;
+           
 
             for (auto it : directions) {
                 int nrow = row + it.first;
@@ -37,6 +37,6 @@ public:
             }
         }
         
-        return 0;
+        return v[n-1][m-1];
     }
 };
