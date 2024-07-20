@@ -13,10 +13,15 @@ public:
             int stop=q.front().first;
             int node=q.front().second.first;
             int dis=q.front().second.second;
+           
             q.pop();
+             if(node==dst) continue;
             if(stop>k) continue;
             for(auto it:adj[node]){
                 int adjnodes=it.first;
+                // if(adjnodes==dst){
+                //     continue;
+                // }
                 if(dis+it.second<dist[adjnodes]){
                     dist[adjnodes]=dis+it.second;
                     q.push({stop+1,{adjnodes,dis+it.second}});
