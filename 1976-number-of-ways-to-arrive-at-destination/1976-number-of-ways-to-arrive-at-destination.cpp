@@ -1,7 +1,8 @@
 class Solution {
+   
 public:
     int countPaths(int n, vector<vector<int>>& roads) {
-       vector<pair<int, int>> adj[n];
+      vector<pair<int, int>> adj[n];
         for (auto it : roads) {
             adj[it[0]].push_back({it[1], it[2]});
             adj[it[1]].push_back({it[0], it[2]});
@@ -38,6 +39,5 @@ public:
         }
 
         return way[n - 1];
-        
     }
 };
