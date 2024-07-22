@@ -1,39 +1,43 @@
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-      int m=edges[0].size();
-       vector<vector<int>>v(n,vector<int>(n,INT_MAX));
+        
+        vector<vector<int>>vis(n,vector<int>(n,1e9));
         for(auto it:edges){
-           v[it[0]][it[1]]=it[2];
-            v[it[1]][it[0]]=it[2];
+            int u=it[0];
+            int v=it[1];
+            int w=it[2];
+            vis[u][v]=w;
+            vis[v][u]=w;
         }
         for(int i=0;i<n;i++){
-            v[i][i]=0;
+            vis[i][i]=0;
         }
         for(int k=0;k<n;k++){
             for(int i=0;i<n;i++){
                 for(int j=0;j<n;j++){
-                    if(v[i][k]!=INT_MAX&&v[j][k]!=INT_MAX&&v[i][j]>v[i][k]+v[k][j]){
-                        v[i][j]=v[i][k]+v[k][j];
+                    if(vis[i][k]!=1e9||vis[k][j]!=1e9){
+                        vis[i][j]=min(vis[i][k]+vis[k][j],vis[i][j]);
                     }
                 }
             }
         }
-        int max=n;
-        int cityNo=-1;
-        for(int city=0;city<n;city++){
-            int count=0;
-            for(int adjcity=0;adjcity<n;adjcity++){
-                if(v[city][adjcity]<=distanceThreshold){
+        
+       
+        int maxcity=n;
+        int city=-1;
+        for(int i=0;i<n;i++){
+             int count=0;
+            for(int j=0;j<n;j++){
+                if(vis[i][j]<=distanceThreshold){
                     count++;
                 }
-                
             }
-            if(count<=max){
-                max=count;
-                cityNo=city;
+            if(count<=maxcity){
+                maxcity=count;
+                city=i;
             }
         }
-        return cityNo;
+        return city;
     }
 };
