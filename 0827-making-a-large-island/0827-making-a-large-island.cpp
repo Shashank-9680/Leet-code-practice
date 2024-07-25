@@ -53,58 +53,50 @@ private:
     }
 public:
     int largestIsland(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
-        DisjointSet ds(n * m);
-
-        int dr[] = {-1, 0, 1, 0};
-        int dc[] = {0, -1, 0, 1};
-
-        // Step 1: Create disjoint sets for initial 1s
-        for (int row = 0; row < n; row++) {
-            for (int col = 0; col < m; col++) {
-                if (grid[row][col] == 0) continue;
-                for (int ind = 0; ind < 4; ind++) {
-                    int newr = row + dr[ind];
-                    int newc = col + dc[ind];
-                    if (isValid(newr, newc, n, m) && grid[newr][newc] == 1) {
-                        int nodeNo = row * m + col;
-                        int adjNodeNo = newr * m + newc;
-                        if(ds.findUPar(nodeNo)!=ds.findUPar(adjNodeNo)){
-                        ds.unionBySize(nodeNo, adjNodeNo);     
-                        }
-                       
-                    }
-                }
+        int n=grid.size();
+        int m=grid[0].size();
+      DisjointSet ds(n*m);
+        vector<pair<int,int>>directions={{-1,0},{0,-1},{1,0},{0,1}};
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(grid[i][j]==0) continue;
+                
+              for(auto it:directions){
+                  int nrow=i+it.first;
+                  int ncol=j+it.second;
+                  if(isValid(nrow,ncol,n,m)&&grid[nrow][ncol]==1){
+                      int node1=i*m+j;
+                      int node2=nrow*m+ncol;
+                      ds.unionBySize(node1,node2);
+                  }
+              }
             }
         }
-
-        // Step 2: Calculate max possible connection by flipping each 0 to 1
-        int mx = 0;
-        for (int row = 0; row < n; row++) {
-            for (int col = 0; col < m; col++) {
-                if (grid[row][col] == 1) continue;
-                set<int> components;
-                for (int ind = 0; ind < 4; ind++) {
-                    int newr = row + dr[ind];
-                    int newc = col + dc[ind];
-                    if (isValid(newr, newc, n, m) && grid[newr][newc] == 1) {
-                        components.insert(ds.findUPar(newr * m + newc));
-                    }
+        int mx=0;
+        
+        for(int i=0;i<n;i++){
+            
+            for(int j=0;j<m;j++){
+               if(grid[i][j]==1) continue;
+                set<int>components;
+              for(auto it:directions){
+                  int nrow=i+it.first;
+                  int ncol=j+it.second;
+                  if(isValid(nrow,ncol,n,m)&&grid[nrow][ncol]==1){
+                     components.insert({ds.findUPar(nrow*m+ncol)});
+                  }
+              } 
+              int sizeTotal=0;
+                for(auto it:components){
+                    sizeTotal+=ds.size[it];
+                    mx=max(mx,sizeTotal+1);
                 }
-                int sizeTotal = 0;
-                for (auto it : components) {
-                    sizeTotal += ds.size[it];
-                }
-                mx = max(mx, sizeTotal + 1);
             }
+        
         }
-
-        // Step 3: Check max size of any existing component
-        for (int cellNo = 0; cellNo < n * m; cellNo++) {
-            mx = max(mx, ds.size[ds.findUPar(cellNo)]);
+        for(int i=0;i<n*n;i++){
+            mx=max(mx,ds.size[ds.findUPar(i)]);
         }
-
         return mx;
     }
 };
