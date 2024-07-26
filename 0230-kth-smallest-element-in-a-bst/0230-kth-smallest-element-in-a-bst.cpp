@@ -10,18 +10,29 @@
  * };
  */
 class Solution {
-  void findinorder(TreeNode*root,vector<int>&inorder){
-      if(root==NULL){
-          return;
-      }
-      findinorder(root->left,inorder);
-      inorder.push_back(root->val);
-     findinorder(root->right,inorder);
-  } 
+    int count=0;
+    int result=-1;
+    void inorder(TreeNode* root, int k) {
+        if (root == NULL) {
+            return;
+        }
+
+        // Traverse the left subtree
+        inorder(root->left, k);
+
+        // Visit the current node
+        count++;
+        if (count == k) {
+            result = root->val;
+            return;
+        }
+
+        // Traverse the right subtree
+        inorder(root->right, k);
+    }
 public:
     int kthSmallest(TreeNode* root, int k) {
-        vector<int>inorder;
-        findinorder(root,inorder);
-        return inorder[k-1];
+     inorder(root,k);
+        return result;
     }
 };
