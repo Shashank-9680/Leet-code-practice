@@ -17,7 +17,7 @@ public:
         }
         
         // Extend the array to simulate the circular array
-        nums.insert(nums.end(), nums.begin(), nums.end());
+        // nums.insert(nums.end(), nums.begin(), nums.end());
         
         // Use a sliding window (two-pointer) approach
         int countZeroes = 0;
@@ -30,11 +30,11 @@ public:
         int minZeroes = countZeroes;
         int i = 0, j = countOnes;
         
-        while (j < nums.size()) {
-            if (nums[i] == 0) {
+        while (j < 2*nums.size()) {
+            if (nums[i%n] == 0) {
                 countZeroes--;
             }
-            if (nums[j] == 0) {
+            if (nums[j%n] == 0) {
                 countZeroes++;
             }
             minZeroes = min(minZeroes, countZeroes);
