@@ -47,9 +47,9 @@ public:
             for (int j = 0; j <= n; j++) {
                 if (i == 0 || j == 0 || i == n || j == n) {
                     int node = (i * (n + 1) + j);
-                    if(node!=0){
+                
                     ds.unionByRank(0, node);    
-                    }
+                    
                     
                 }
             }
