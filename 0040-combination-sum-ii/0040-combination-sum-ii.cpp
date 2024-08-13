@@ -6,7 +6,7 @@ class Solution {
         }
         
         for (int i = ind; i < candidates.size(); i++) {
-            if (i > ind && candidates[i] == candidates[i-1]) continue; 
+            if (i!=ind&& candidates[i] == candidates[i-1]) continue; 
             if (candidates[i] > target) break;
             
             ds.push_back(candidates[i]);
