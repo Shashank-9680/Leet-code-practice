@@ -6,9 +6,12 @@ public:
         for(auto it:nums){
             m[it]++;
         }
-        priority_queue<pair<int,int>>q;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>q;
         for(auto it:m){
-           q.push({it.second,it.first}); 
+           q.push({it.second,it.first});
+            if(q.size()>k){
+                q.pop();
+            }
         }
         while(k--){
             
