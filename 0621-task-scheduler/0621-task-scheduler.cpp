@@ -1,46 +1,34 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-      int time = 0;
-        int freq[26] = {0};
-
-        // Count the frequency of each task
-        for (char task : tasks) {
-            freq[task - 'A']++;
+      vector<int>hash(26,0);
+        for(int i=0;i<tasks.size();i++){
+            hash[tasks[i]-'A']++;
         }
-
-        // Max-heap (priority queue) to store task frequencies
-        priority_queue<int> pq;
-        for (int i = 0; i < 26; i++) {
-            if (freq[i] > 0) {
-                pq.push(freq[i]);
+        priority_queue<int>pq;
+        for(int i=0;i<26;i++){
+            if(hash[i]>0){
+                pq.push(hash[i]);
             }
         }
-
-        // Queue to store tasks in the cooldown period
-        queue<pair<int, int>> cooldownQueue;
-
-        while (!pq.empty() || !cooldownQueue.empty()) {
-            
-
-            // Check if any task in cooldown can be added back to the priority queue
-            if (!cooldownQueue.empty() && cooldownQueue.front().second + n < time) {
-                pq.push(cooldownQueue.front().first);
-                cooldownQueue.pop();
+        queue<pair<int,int>>q;
+        int time=0;
+        while(!pq.empty()||!q.empty()){
+            if(!q.empty()&&q.front().second+n<time){
+                  pq.push(q.front().first);
+                  q.pop();
             }
-
-            // Execute the most frequent task
-            if (!pq.empty()) {
-                int currentTaskFreq = pq.top();
+            if(!pq.empty()){
+                int node=pq.top();
                 pq.pop();
-
-                if (currentTaskFreq > 1) {
-                    cooldownQueue.push({currentTaskFreq - 1, time});
+                if(node>1){
+                q.push({node-1,time});    
                 }
+                
             }
             time++;
         }
-
         return time;
+        
     }
 };
