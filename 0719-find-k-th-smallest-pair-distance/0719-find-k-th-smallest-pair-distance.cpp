@@ -19,8 +19,8 @@ public:
                while(j<n&&nums[j]-nums[i]<=mid){
                    j++;
                }
-               j--;
-               count+=j-i;
+              
+               count+=j-i-1;
            }
             
             
