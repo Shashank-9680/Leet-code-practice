@@ -1,7 +1,21 @@
 class Solution {
+    bool fxn(unordered_map<char,int>m,int maxi,int k){
+        int sum=0;
+       for(auto it:m){
+           if(it.second!=maxi){
+              sum+=it.second;
+           }
+       }
+       if(sum>k){
+           return false;
+       }
+        else{
+            return true;
+        }
+    }
 public:
     int characterReplacement(string s, int k) {
-         int length=0;
+        int length=0;
         int i=0;
         int j=0;
         int n=s.size();
@@ -21,6 +35,7 @@ public:
                   m.erase(s[i]);
               }
               i++;
+               maximum=0;
                    
            }
             
@@ -30,6 +45,5 @@ public:
            j++;
         }
         return length;
-     
     }
 };
