@@ -1,21 +1,25 @@
 class Solution {
 public:
-    int maxScore(vector<int>& a, int k) {
-     int leftsum=0;
-        int rightsum=0;
-        int n=a.size();
-        for(int i=0;i<k;i++){
-            leftsum=leftsum+a[i];
+    int maxScore(vector<int>& arr, int k) {
+        
+        int sum=0;
+        for(int i=0;i<arr.size();i++){
+            sum=sum+arr[i];
         }
-        int maxsum=leftsum;
-        int rightindex=n-1;
-        for(int i=k-1;i>=0;i--){
-            leftsum=leftsum-a[i];
-            rightsum=rightsum+a[rightindex];
-            rightindex--;
-             maxsum=max(maxsum,leftsum+rightsum);
+       int size=arr.size()-k;
+        int sum1=0;
+        for(int i=0;i<size;i++){
+            sum1=sum1+arr[i];
         }
-       
-        return maxsum;
+        int ans=sum-sum1;
+        int i=0;
+        int j=size;
+        while(j<arr.size()){
+            sum1=sum1-arr[i]+arr[j];
+            i++;
+            ans=max(ans,sum-sum1);
+            j++;
+        }
+        return ans;
     }
 };
