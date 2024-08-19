@@ -1,13 +1,14 @@
 class Solution {
     int subArray1(vector<int>&nums,int goal){
-        
-        int i=0,j=0;
+      int i=0;
+        int j=0;
+        int n=nums.size();
         int count=0;
         int oddCount=0;
-        while(j<nums.size()){
-           if(nums[j]%2==1){
-               oddCount++;
-           }
+        while(j<n){
+            if(nums[j]%2==1){
+                oddCount++;
+            }
             while(oddCount>goal){
                 if(nums[i]%2==1){
                     oddCount--;
