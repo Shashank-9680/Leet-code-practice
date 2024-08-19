@@ -7,27 +7,25 @@ using namespace std;
 class Solution {
   public:
     int totalFruits(vector<int> &arr) {
-        int i=0;
-        int j=0;
-        int k=2;
-        int n=arr.size();
-        unordered_map<int,int>m;
-        int count=0;
-        int maxFruit=0;
-        while(j<n){
-            m[arr[j]]++;
-            while(m.size()>k){
-                m[arr[i]]--;
-                if(m[arr[i]]==0){
-                    m.erase(arr[i]);
-                }
-                i++;
-                
-            }
-            maxFruit=max(j-i+1,maxFruit);
-            j++;
-        }
-        return maxFruit;
+      unordered_map<int,int>m;
+      int i=0;
+      int j=0;
+      int n=arr.size();
+      int k=2;
+      int length=0;
+      while(j<n){
+          m[arr[j]]++;
+          while(m.size()>k){
+              m[arr[i]]--;
+              if(m[arr[i]]==0){
+                  m.erase(arr[i]);
+              }
+              i++;
+          }
+          length=max(length,j-i+1);
+          j++;
+      }
+      return length;
     }
 };
 
