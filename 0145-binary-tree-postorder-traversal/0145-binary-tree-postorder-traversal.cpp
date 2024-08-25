@@ -10,22 +10,19 @@
  * };
  */
 class Solution {
-    void postOrderTraversal(TreeNode*root,vector<int>&v){
-   
-    if(root==nullptr){
-        return;
+    void fxn(TreeNode* root,vector<int>&postorder){
+        if(root==NULL){
+            return;
+        }
+        fxn(root->left,postorder);
+        fxn(root->right,postorder);
+        postorder.push_back(root->val);
+        
     }
-   
-    postOrderTraversal(root->left,v);
-    postOrderTraversal(root->right,v);
-         v.push_back(root->val);
-
-
-}
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-      vector<int>v;
-        postOrderTraversal(root,v);
-return v;   
+        vector<int>postorder;
+        fxn(root,postorder);
+        return postorder;
     }
 };
