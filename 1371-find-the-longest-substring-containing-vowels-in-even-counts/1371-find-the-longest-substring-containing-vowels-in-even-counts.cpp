@@ -13,7 +13,7 @@ public:
             else if (s[i] == 'i') mask ^= (1 << 2);
             else if (s[i] == 'o') mask ^= (1 << 3);
             else if (s[i] == 'u') mask ^= (1 << 4);
-            
+            else mask^=0;
             if (m.find(mask) != m.end()) {
                 maxLength = max(maxLength, i  - m[mask]);
             } else {
