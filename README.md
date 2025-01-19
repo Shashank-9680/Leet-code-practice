@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
@@ -82,4 +83,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
+## Matrix
+|  |
+| ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 <!---LeetCode Topics End-->
