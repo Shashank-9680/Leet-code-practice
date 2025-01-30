@@ -1,44 +1,43 @@
 class Solution {
 public:
-    string reorganizeString(string s) {
-        // Step 1: Count frequencies
-        unordered_map<char, int> freqMap;
-        for (char c : s) {
-            freqMap[c]++;
+    string reorganizeString(string S) {
+        string res="";
+        unordered_map<char,int> mp;
+        priority_queue<pair<int,char>>pq;
+        
+        for(auto s: S)
+            mp[s]+=1;
+        
+        for(auto m: mp)
+            pq.push(make_pair(m.second,m.first));
+        
+        while(pq.size()>1){
+            auto top1= pq.top();
+            pq.pop();
+            auto top2 = pq.top();
+            pq.pop();
+            
+            res+=top1.second;
+            res+=top2.second;
+            
+            top1.first -=1;
+            top2.first -= 1;
+            
+            if(top1.first > 0)
+                pq.push(top1);
+            
+            if(top2.first > 0)
+                pq.push(top2);
         }
-
-        // Step 2: Find the character with the highest frequency
-        int maxFreq = 0;
-        char maxChar;
-        for (auto& [c, freq] : freqMap) {
-            if (freq > maxFreq) {
-                maxFreq = freq;
-                maxChar = c;
-            }
+        
+        if(!pq.empty()){
+            if(pq.top().first > 1)
+                return "";
+            
+            else
+                res+=pq.top().second;
         }
-
-        // Step 3: Check if reorganization is possible
-        if (maxFreq > (s.size() + 1) / 2) return "";
-
-        // Step 4: Fill the result string
-        string res(s.size(), '\0');
-        int idx = 0;
-
-        // Step 4.1: Place the most frequent character first
-        while (freqMap[maxChar]-- > 0) {
-            res[idx] = maxChar;
-            idx += 2;
-        }
-
-        // Step 4.2: Place remaining characters
-        for (auto& [c, freq] : freqMap) {
-            while (freq-- > 0) {
-                if (idx >= res.size()) idx = 1;
-                res[idx] = c;
-                idx += 2;
-            }
-        }
-
+        
         return res;
     }
 };
