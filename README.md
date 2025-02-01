@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2792-neighboring-bitwise-xor) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Shashank-9680/Leet-code-practice/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3429-special-array-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/3429-special-array-i) |
 ## Dynamic Programming
 |  |
 | ------- |
