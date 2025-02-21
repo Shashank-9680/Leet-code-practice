@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
 | [2562-count-ways-to-build-good-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2562-count-ways-to-build-good-strings) |
