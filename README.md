@@ -311,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2050-count-good-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2448-count-number-of-bad-pairs) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2610-closest-prime-numbers-in-range) |
@@ -380,4 +381,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+## Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2050-count-good-numbers) |
 <!---LeetCode Topics End-->
