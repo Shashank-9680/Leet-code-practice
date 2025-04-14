@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1477-product-of-the-last-k-numbers) |
 | [1524-string-matching-in-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1524-string-matching-in-an-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1656-count-good-triplets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1656-count-good-triplets) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
@@ -385,4 +386,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2050-count-good-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2050-count-good-numbers) |
+## Enumeration
+|  |
+| ------- |
+| [1656-count-good-triplets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1656-count-good-triplets) |
 <!---LeetCode Topics End-->
