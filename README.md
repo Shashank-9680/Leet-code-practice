@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0038-count-and-say) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1093-recover-a-tree-from-preorder-traversal) |
