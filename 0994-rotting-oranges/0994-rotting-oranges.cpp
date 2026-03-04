@@ -5,48 +5,44 @@ public:
         int m=grid[0].size();
         vector<vector<int>>vis(n,vector<int>(m,0));
         queue<pair<int,int>>q;
+        vector<pair<int,int>> dir = {{1,0},{0,1},{-1,0},{0,-1}};
+        int fresh=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(grid[i][j]==2){
-                    q.push({i,j});
                     vis[i][j]=1;
+                    q.push({i,j});
+                }
+                if(grid[i][j]==1){
+                    fresh++;
                 }
             }
         }
-        int count=0;
-        vector<pair<int,int>>dir={{-1,0},{0,-1},{1,0},{0,1}};
-       while (!q.empty()) {
-            int size = q.size();
-            bool isRotten = false;
-            for (int i = 0; i < size; i++) {
-                auto it = q.front();
-                q.pop();
-                int row = it.first;
-                int col = it.second;
-
-                for (auto d : dir) {
-                    int nrow = row + d.first;
-                    int ncol = col + d.second;
-                    // If adjacent cell is a fresh orange, rot it and push it into the queue
-                    if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && grid[nrow][ncol] == 1&&!vis[nrow][ncol]) {
-                        grid[nrow][ncol] = 2;
-                        q.push({nrow, ncol});
-                        isRotten = true;
-                        vis[nrow][ncol]=1;
+        int time=0;
+        while(!q.empty()){
+            int size=q.size();
+            bool ifPresent=false;
+            for(int it=0;it<size;it++){
+               int row=q.front().first;
+               int col=q.front().second;
+               q.pop();
+               for(auto iter:dir){
+                int nrow=row+iter.first;
+                int ncol =col+iter.second;
+                if(nrow>=0&&nrow<n&&ncol>=0&&ncol<m&&!vis[nrow][ncol]){
+                    if(grid[nrow][ncol]==1){
+                        grid[nrow][ncol]=2;
+                        fresh--;
+                        ifPresent=true;
+                        q.push({nrow,ncol});
                     }
                 }
+                
+               }
             }
-            if (isRotten) {
-                count++;
-            }
-        }
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(grid[i][j]==1){
-                    return -1;
-                }
-            }
-        }
-        return count;
-    }
+            if(ifPresent) time++;
+        } 
+        if(fresh==0) return time;
+        return -1;
+    }   
 };
