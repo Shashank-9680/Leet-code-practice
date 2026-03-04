@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1656-count-good-triplets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1656-count-good-triplets) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
+| [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -253,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
+| [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
