@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
+| [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1364-tuple-with-same-product) |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
+| [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
+| [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2145-grid-game) |
