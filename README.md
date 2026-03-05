@@ -224,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0207-course-schedule) |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
@@ -275,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0207-course-schedule) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
@@ -314,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -472,5 +475,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0207-course-schedule) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
