@@ -1,41 +1,50 @@
 class Solution {
 public:
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
-        int n=graph.size();
-        vector<vector<int>>adj(n);
-        for(int i=0;i<n;i++){
-            for(auto it:graph[i]){
+    vector<int> eventualSafeNodes(vector<vector<int>>& edges) {
+
+        int V = edges.size();
+
+        vector<int> adj[V];
+
+        // reverse graph
+        for(int i = 0; i < V; i++){
+            for(auto it : edges[i]){
                 adj[it].push_back(i);
             }
         }
-        int V=adj.size();
-        vector<int>indegree(V,0);
-for(int i=0;i<V;i++){
-    for(auto it:adj[i]){
-        indegree[it]++;
-    }
-}
-queue<int>q;
-vector<int>result;
 
-for(int i=0;i<V;i++){
-    if(indegree[i]==0){
-        q.push(i);
-    }
-}
-while(!q.empty()){
-   int value=q.front();
-   q.pop();
-   result.push_back(value);
-   for(auto it:adj[value]){
-       indegree[it]--;
-       if(indegree[it]==0){
-           q.push(it);
-       }
-   }
-}
- sort(result.begin(), result.end());
+        vector<int> inDegree(V,0);
 
-        return result;
+        for(int i = 0; i < V; i++){
+            for(auto it : adj[i]){
+                inDegree[it]++;
+            }
+        }
+
+        queue<int> q;
+
+        for(int i = 0; i < V; i++){
+            if(inDegree[i] == 0){
+                q.push(i);
+            }
+        }
+
+        vector<int> ans;
+
+        while(!q.empty()){
+ 
+            int node = q.front();
+            q.pop();
+            ans.push_back(node);
+            for(auto it : adj[node]){
+                inDegree[it]--;
+                if(inDegree[it] == 0){
+                    q.push(it);
+                }
+            }
+        }
+
+        sort(ans.begin(), ans.end());
+        return ans;
     }
 };
