@@ -1,41 +1,40 @@
 class Solution {
-    bool dfs(int node,vector<int>&vis,vector<int>adj[],int parent){
-        for(auto it:adj[node]){
-            if(!vis[it]){
-                vis[it]=1;
-                if(dfs(it,vis,adj,node)){
+    
+    bool bfs(int node,vector<int>adj[],vector<int>&vis,queue<pair<int,int>>&q){
+        vis[node]=1;
+        q.push({node,-1});
+        while(!q.empty()){
+            int val=q.front().first;
+            int par=q.front().second;
+            q.pop();
+            for(auto it:adj[val]){
+                if(!vis[it]){
+                    q.push({it,val});
+                    vis[it]=1;
+                }
+                else if(par!=it){
                     return true;
                 }
-            }
-            else if(it!=parent){
-                return true;
             }
         }
         return false;
     }
-public:
+  public:
     bool isCycle(int V, vector<vector<int>>& edges) {
-
-        vector<int>adj[V];
-        int e=edges.size();
-        for(int i=0;i<e;i++){
-            int u=edges[i][0];
-            int v=edges[i][1];
-            adj[u].push_back(v);
-            adj[v].push_back(u);
-        }
         
+        vector<int>adj[V];
+        for(auto it:edges){
+            adj[it[0]].push_back(it[1]);
+             adj[it[1]].push_back(it[0]);
+        }
         vector<int>vis(V,0);
-        int parent=-1;
+        queue<pair<int,int>>q;
         for(int i=0;i<V;i++){
             if(!vis[i]){
-                vis[i]=1;
-                 if(dfs(i,vis,adj,parent)){
-                
-                return true;
+                if(bfs(i,adj,vis,q)){
+                    return true;
+                }
             }
-            }
-           
         }
         return false;
     }
