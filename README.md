@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1477-product-of-the-last-k-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1477-product-of-the-last-k-numbers) |
 | [1524-string-matching-in-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1524-string-matching-in-an-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [1656-count-good-triplets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1656-count-good-triplets) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
@@ -241,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -253,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -269,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2145-grid-game) |
@@ -295,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -441,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0792-binary-search](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0792-binary-search) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2280-count-good-triplets-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -484,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
+| [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
