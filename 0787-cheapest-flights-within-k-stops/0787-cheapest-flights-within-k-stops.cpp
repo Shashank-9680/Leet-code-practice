@@ -27,7 +27,7 @@ public:
                 int adjNode=it.first;
                 if(dis+it.second<dist[adjNode]&&stops<=k){
                     dist[adjNode]=dis+it.second;
-                    pq.push({stops+1,{adjNode, dis+it.second}});
+                    pq.push({stops+1,{adjNode,  dist[adjNode]}});
                 } 
             }
         }
