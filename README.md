@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
 | [1170-shortest-common-supersequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1170-shortest-common-supersequence) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
@@ -255,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -291,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
@@ -458,6 +462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Recursion
 |  |
@@ -498,5 +503,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
