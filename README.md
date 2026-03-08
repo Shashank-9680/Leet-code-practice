@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
@@ -265,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1765-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1765-map-of-highest-peak) |
 | [1876-map-of-highest-peak](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1876-map-of-highest-peak) |
