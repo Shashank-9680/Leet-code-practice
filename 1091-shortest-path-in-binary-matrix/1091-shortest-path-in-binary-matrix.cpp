@@ -1,38 +1,50 @@
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-        int n=grid.size();
-       if(n==1&&grid[0][0]==0){
-           return 1;
-       }
-        vector<vector<int>>dist(n,vector<int>(n,INT_MAX));
-        queue<pair<int,pair<int,int>>>q;
-        q.push({0,{0,0}});
-        if(grid[0][0]!=0||grid[n-1][n-1]!=0) return -1;
-        dist[0][0]=1;
+
+        int n = grid.size();
+        int m = grid[0].size();
+
+        if(grid[0][0] == 1 || grid[n-1][m-1] == 1) return -1;
+
+        vector<vector<int>> dist(n, vector<int>(m, 1e9));
+
+        queue<pair<int,int>> q;
+        q.push({0,0});
+
+        dist[0][0] = 1;
+
+        vector<pair<int,int>> neig = {
+            {-1,0},{0,-1},{1,0},{0,1},
+            {1,1},{-1,-1},{-1,1},{1,-1}
+        };
+
         while(!q.empty()){
-            int dis=q.front().first;
-            int row=q.front().second.first;
-            int col=q.front().second.second;
+
+            auto it = q.front();
+            int row = it.first;
+            int col = it.second;
             q.pop();
-            for(int rc=-1;rc<=1;rc++){
-                for(int cc=-1;cc<=1;cc++){
-                    int nrow=row+rc;
-                    int ncol=col+cc;  
-                    if(nrow>=0&&nrow<n&&ncol>=0&&ncol<n){
-                       if(grid[nrow][ncol]==0){
-                           if(dis+1<dist[nrow][ncol]){
-                               dist[nrow][ncol]=dis+1;
-                               q.push({dist[nrow][ncol],{nrow,ncol}});
-                           }
-                       } 
+
+            for(auto d : neig){
+
+                int nrow = row + d.first;
+                int ncol = col + d.second;
+
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && grid[nrow][ncol]==0){
+
+                    if(dist[row][col] + 1 < dist[nrow][ncol]){
+
+                        dist[nrow][ncol] = dist[row][col] + 1;
+                        q.push({nrow,ncol});
+
                     }
-                }     
+                }
             }
         }
-       if(dist[n-1][n-1]==INT_MAX){
-           return -1;
-       }
-        return dist[n-1][n-1]+1;
+
+        if(dist[n-1][m-1] == 1e9) return -1;
+
+        return dist[n-1][m-1];
     }
 };
