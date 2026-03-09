@@ -233,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
+| [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
@@ -462,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Recursion
@@ -502,6 +506,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
