@@ -1,50 +1,36 @@
 class Solution {
-public:
-    vector<int> eventualSafeNodes(vector<vector<int>>& edges) {
-
-        int V = edges.size();
-
-        vector<int> adj[V];
-
-        // reverse graph
-        for(int i = 0; i < V; i++){
-            for(auto it : edges[i]){
-                adj[it].push_back(i);
-            }
-        }
-
-        vector<int> inDegree(V,0);
-
-        for(int i = 0; i < V; i++){
-            for(auto it : adj[i]){
-                inDegree[it]++;
-            }
-        }
-
-        queue<int> q;
-
-        for(int i = 0; i < V; i++){
-            if(inDegree[i] == 0){
-                q.push(i);
-            }
-        }
-
-        vector<int> ans;
-
-        while(!q.empty()){
- 
-            int node = q.front();
-            q.pop();
-            ans.push_back(node);
-            for(auto it : adj[node]){
-                inDegree[it]--;
-                if(inDegree[it] == 0){
-                    q.push(it);
+    bool dfs(int node,vector<vector<int>>&edges,vector<int>&vis,vector<int>&pathVis,vector<int>&ans){
+        vis[node]=1;
+        pathVis[node]=1;
+        for(auto it:edges[node]){
+            if(!vis[it]){
+                if(dfs(it,edges,vis,pathVis,ans)){
+                    return true;
                 }
             }
+            else if(pathVis[it]){
+                return true;
+            }
+            
         }
+        
+           ans.push_back(node);  
 
-        sort(ans.begin(), ans.end());
+        pathVis[node]=0;
+        return false;
+    }
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& edges) {
+        int V=edges.size();
+        vector<int>vis(V,0);
+        vector<int>pathVis(V,0);
+        vector<int>ans;
+        for(int i=0;i<V;i++){
+            if(!vis[i]){
+                dfs(i,edges,vis,pathVis,ans);
+            }
+        }
+        sort(ans.begin(),ans.end());
         return ans;
     }
 };
