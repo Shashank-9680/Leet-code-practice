@@ -243,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
@@ -304,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1558-course-schedule-iv) |
@@ -502,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
@@ -513,5 +516,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
