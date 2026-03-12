@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
@@ -261,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2434-design-a-number-container-system) |
@@ -275,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0854-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0994-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -298,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0802-find-eventual-safe-states) |
@@ -455,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0792-binary-search) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
@@ -503,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0547-number-of-provinces) |
+| [0778-swim-in-rising-water](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0785-is-graph-bipartite) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-path-with-minimum-effort) |
