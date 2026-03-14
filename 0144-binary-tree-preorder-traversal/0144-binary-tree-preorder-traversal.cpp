@@ -10,35 +10,18 @@
  * };
  */
 class Solution {
-//     void preOrderTraversal(TreeNode*root,vector<int>&v){
-   
-//     if(root==nullptr){
-//         return;
-//     }
-//      v.push_back(root->val);
-//     preOrderTraversal(root->left,v);
-//     preOrderTraversal(root->right,v);
-
-
-// }
 public:
+  vector<int>ans;
+  void dfs(TreeNode* root){
+       if(root==NULL){
+        return;
+       }  
+          ans.push_back(root->val);
+        dfs(root->left);
+        dfs(root->right);
+    }
     vector<int> preorderTraversal(TreeNode* root) {
-//    vector<int>v;
-//         preOrderTraversal(root,v);
-// return v;
-        stack<TreeNode*>st;
-        vector<int>v;
-        if(root==nullptr){
-            return v;
-        }
-         st.push(root);
-        while(!st.empty()){
-            root=st.top();
-            v.push_back(root->val);
-            st.pop();
-            if(root->right!=NULL) st.push(root->right);
-            if(root->left!=NULL) st.push(root->left);
-        }
-        return v;
+        dfs(root);
+        return ans;
     }
 };
