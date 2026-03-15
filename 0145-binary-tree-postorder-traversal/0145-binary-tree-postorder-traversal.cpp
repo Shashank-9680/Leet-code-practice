@@ -10,18 +10,24 @@
  * };
  */
 class Solution {
-    vector<int>ans;
-     void dfs(TreeNode* root){
-       if(root==NULL){
-        return;
-       }  
-       dfs(root->left);
-        dfs(root->right);
-        ans.push_back(root->val);
-    }
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-           dfs(root);
+        stack<TreeNode*>st1;
+        stack<int>st2;
+        if(root!=NULL) st1.push(root);
+        else return {};
+        while(!st1.empty()){
+            TreeNode*temp=st1.top();
+            st1.pop();
+            st2.push(temp->val);
+            if(temp->left!=nullptr) st1.push(temp->left);
+            if(temp->right!=nullptr) st1.push(temp->right);
+        }
+        vector<int>ans;
+        while(!st2.empty()){
+            ans.push_back(st2.top());
+            st2.pop();
+        }
         return ans;
     }
 };
