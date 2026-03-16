@@ -25,7 +25,7 @@ class Solution {
         if(!val1) return false;
          bool val2= isSameTree(p->right,q->right);
         if(!val2) return false;
-        return val1&&val2;
+        return true;
     }
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
