@@ -10,25 +10,23 @@
  * };
  */
 class Solution {
-    int maxDepth(TreeNode* root) {
-       if(root==NULL) return 0;
-        int lf=maxDepth(root->left);
-        int rf=maxDepth(root->right);
-        if(lf==-1) return -1;
-        if(abs(lf-rf)>1) return -1;
-        if(rf==-1) return -1;
-        return 1+max(lf,rf);
+    bool val=false;
+    int dfs(TreeNode*root){
+       if(root==NULL){
+            return 0;
+        }
+        
+            int val1= 1+dfs(root->left);
+            int val2=1+dfs(root->right);
+            if(abs(val1-val2)>1){
+                val=true;
+            }
+            return max(val1,val2);
     }
 public:
     bool isBalanced(TreeNode* root) {
-        
-        int a=maxDepth(root);
-        if(a==-1){
-            return false;
-        }
-        else{
-            return true;
-        }
+        dfs(root);
+        if(!val) return true;
+        return false;
     }
-    
 };
