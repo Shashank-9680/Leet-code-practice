@@ -11,27 +11,31 @@
  */
 class Solution {
 public:
+   bool dfs(TreeNode*node1,TreeNode*node2){
+    if(node1==NULL&&node2==NULL) return true;
+
+    if(node1==NULL||node2==NULL) return false;
+      if(node1->val!=node2->val){
+        return false;
+      }
+      bool val1=dfs(node1->left,node2->right);
+      if(!val1) return false;
+      bool val2=dfs(node1->right,node2->left);
+      if(!val2) return false;
+      return true;
+   }
     bool isSymmetric(TreeNode* root) {
-        queue<TreeNode*>left;
-        queue<TreeNode*>right;
-        left.push(root->left);
-        right.push(root->right);
-         if (root == nullptr) return true;
-       
-        while(!left.empty()&&!right.empty()){
-            TreeNode*temp1=left.front();
-             TreeNode*temp2=right.front();
-            left.pop();
-            right.pop();
-              if (temp1 == nullptr && temp2 == nullptr) continue;
-            if (temp1 == nullptr || temp2 == nullptr) return false;
-           
-             if (temp1->val != temp2->val) return false;
-            
-            left.push(temp1->left);
-            left.push(temp1->right);
-            right.push(temp2->right);
-            right.push(temp2->left);
+        if(root==NULL) return true;
+        if(root->left&&root->right==NULL){
+            return false;
+        }
+        if(root->right&&root->left==NULL){
+            return false;
+        }
+        TreeNode*temp1=root->left;
+        TreeNode*temp2=root->right;
+        if(!dfs(temp1,temp2)){
+            return false;
         }
         return true;
     }
