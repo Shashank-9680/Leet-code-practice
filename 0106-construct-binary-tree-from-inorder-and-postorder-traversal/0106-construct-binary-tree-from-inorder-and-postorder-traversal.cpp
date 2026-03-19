@@ -10,40 +10,42 @@
  * };
  */
 class Solution {
-//       TreeNode*buildTree(vector<int>&postorder,int postStart,int postEnd,vector<int>&inorder,int inStart,int inEnd,unordered_map<int, int>& m){
-//         if (postStart > postEnd || inStart > inEnd) return NULL;
-        
-//         TreeNode* newNode = new TreeNode(inorder[postStart]);
-//         int inRoot = m[newNode->val];
-//         int numsLeft = inRoot - inStart;
-        
-//         // newNode->left = buildTree(postorder, postEnd , postEnd +numsLeft-1, inorder, inStart, inRoot - 1, m);
-//         // newNode->right = buildTree(postorder, postEnd +numsLeft, postStart-1, inorder, inRoot + 1, inEnd, m);
-//           newNode->left = buildTree(postorder, postStart - numsLeft - 1, postEnd, inorder, inStart, inRoot - 1, m);
-//         newNode->right = buildTree(postorder, postStart - 1, postStart - numsLeft, inorder, inRoot + 1, inEnd, m);
-        
-//         return newNode;
-//     }
-     TreeNode* buildTree(vector<int>& postorder, int postStart, int postEnd, vector<int>& inorder, int inStart, int inEnd, unordered_map<int, int>& m) {
-         if (postStart < postEnd || inStart > inEnd) return NULL;
-        
-        TreeNode* newNode = new TreeNode(postorder[postStart]);
-        int inRoot = m[newNode->val];
-        int numsLeft = inRoot - inStart;
-         newNode->left = buildTree(postorder, postStart - (inEnd - inRoot) - 1, postEnd, inorder, inStart, inRoot - 1, m);
-        newNode->right = buildTree(postorder, postStart - 1, postStart - (inEnd - inRoot), inorder, inRoot + 1, inEnd, m);
-        
-        
-        return newNode;
-    }
 public:
+  TreeNode* dfs(vector<int>& preorder, vector<int>& inorder,
+              int inStart, int inEnd,
+              int preStart, int preEnd,
+              unordered_map<int,int>& m) {
+
+    if (inStart > inEnd || preStart > preEnd) return NULL;
+
+    TreeNode* node = new TreeNode(preorder[preEnd]);
+
+    int index = m[node->val];              // root index in inorder
+    int leftSize = index - inStart;        // number of nodes in left subtree
+
+    // LEFT subtree
+    node->left = dfs(preorder, inorder,
+                     inStart, index - 1,
+                     preStart, preStart + leftSize-1,
+                     m);
+
+    // RIGHT subtree
+    node->right = dfs(preorder, inorder,
+                      index + 1, inEnd,
+                      preStart + leftSize, preEnd-1,
+                      m);
+
+    return node;
+}
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        unordered_map<int, int> m;
-        for (int i = 0; i < inorder.size(); i++) {
-            m[inorder[i]] = i;      
+          int inStart=0;
+        int inEnd=inorder.size()-1;
+        int preStart=0;
+        int preEnd=postorder.size()-1;
+        unordered_map<int,int>m;
+        for(int i=0;i<inorder.size();i++){
+            m[inorder[i]]=i;
         }
-       
-        return buildTree(postorder, postorder.size() - 1, 0, inorder, 0, inorder.size() - 1, m);
+        return dfs(postorder,inorder,inStart,inEnd,preStart,preEnd,m);
     }
-    
 };
