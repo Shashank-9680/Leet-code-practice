@@ -10,27 +10,43 @@
  * };
  */
 class Solution {
-    TreeNode*buildTree(vector<int>&preorder,int preStart,int preEnd,vector<int>&inorder,int inStart,int inEnd,unordered_map<int, int>& m){
-         if (preStart > preEnd || inStart > inEnd) return NULL;
-        
-        TreeNode* newNode = new TreeNode(preorder[preStart]);
-        int inRoot = m[newNode->val];
-        int numsLeft = inRoot - inStart;
-        
-        newNode->left = buildTree(preorder, preStart + 1, preStart + numsLeft, inorder, inStart, inRoot - 1, m);
-        newNode->right = buildTree(preorder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, m);
-        
-        return newNode;
-    }
+  TreeNode* dfs(vector<int>& preorder, vector<int>& inorder,
+              int inStart, int inEnd,
+              int preStart, int preEnd,
+              unordered_map<int,int>& m) {
+
+    if (inStart > inEnd || preStart > preEnd) return NULL;
+
+    TreeNode* node = new TreeNode(preorder[preStart]);
+
+    int index = m[node->val];              // root index in inorder
+    int leftSize = index - inStart;        // number of nodes in left subtree
+
+    // LEFT subtree
+    node->left = dfs(preorder, inorder,
+                     inStart, index - 1,
+                     preStart + 1, preStart + leftSize,
+                     m);
+
+    // RIGHT subtree
+    node->right = dfs(preorder, inorder,
+                      index + 1, inEnd,
+                      preStart + leftSize + 1, preEnd,
+                      m);
+
+    return node;
+}
+    
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-      unordered_map<int,int>m;
+        int inStart=0;
+        int inEnd=inorder.size()-1;
+        int preStart=0;
+        int preEnd=preorder.size()-1;
+        unordered_map<int,int>m;
         for(int i=0;i<inorder.size();i++){
-            m[inorder[i]]=i;      
+            m[inorder[i]]=i;
         }
-        TreeNode*root=buildTree(preorder,0,preorder.size()-1,inorder,0,inorder.size()-1,m);
-            return root;
+        return dfs(preorder,inorder,inStart,inEnd,preStart,preEnd,m);
     }
-    
-    
 };
