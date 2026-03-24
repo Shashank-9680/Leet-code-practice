@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0038-count-and-say) |
+| [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
@@ -514,6 +515,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
