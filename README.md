@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0205-isomorphic-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0205-isomorphic-strings) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0038-count-and-say](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0038-count-and-say) |
 | [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0205-isomorphic-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
