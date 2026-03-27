@@ -1,17 +1,25 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if(s.size()!=t.size()){
-            return false;
+        if(s.size()!=t.size()) return false;
+        unordered_map<char,int>m1,m2;
+        for(auto it:s){
+            m1[it]++;
         }
-        sort(s.begin(),s.end());
-         sort(t.begin(),t.end());
-        int i=0;
-        while(i<s.size()){
-            if(s[i]!=t[i]){
+        for(auto it:t){
+            m2[it]++;
+        }
+        for(int i=0;i<s.size();i++){
+            if(m2.count(s[i])==0||m2[s[i]]!=m1[s[i]]){
+                cout<<"shashank";
                 return false;
             }
-            i++;
+        }
+        for(int i=0;i<t.size();i++){
+            if(m1.count(t[i])==0||m1[t[i]]!=m2[t[i]]){
+                cout<<"hey";
+                return false;
+            }
         }
         return true;
     }
