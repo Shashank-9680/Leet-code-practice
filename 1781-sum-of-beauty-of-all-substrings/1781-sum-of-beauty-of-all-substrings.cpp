@@ -1,25 +1,23 @@
 class Solution {
 public:
-    int ans = 0;
     int beautySum(string s) {
-
-        for (int i = 0; i < s.length(); i++) {
-            map<char, int> mp;
-            for (int j = i; j < s.length(); j++) {
-                // counting the frequency of each character
-                mp[s[j]]++;
-
-                int leastFrequent = INT_MAX;
-                int mostFrequent = INT_MIN;
-                
-                for (auto it : mp) {
-                    leastFrequent = min(leastFrequent, it.second);
-                    mostFrequent = max(mostFrequent, it.second);
+        int sum=0;
+        for(int i=0;i<s.size();i++){
+             vector<int>v(26,0);
+            for(int j=i;j<s.size();j++){
+                int a=s[j]-'a';
+                v[a]++;
+                int mini=INT_MAX;
+                int maxi=INT_MIN;
+                for(int i=0;i<26;i++){
+                    if(v[i]!=0){
+                     mini=min(v[i],mini);
+                     maxi=max(v[i],maxi);
+                    }
                 }
-                ans += mostFrequent - leastFrequent;
+                sum+=abs(maxi-mini);
             }
         }
-
-        return ans;
+        return sum;
     }
 };
