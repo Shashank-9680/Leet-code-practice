@@ -536,6 +536,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
+| [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -628,6 +629,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search Tree
 |  |
 | ------- |
