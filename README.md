@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0013-roman-to-integer) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0205-isomorphic-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0205-isomorphic-strings) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0038-count-and-say) |
 | [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
@@ -439,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0013-roman-to-integer) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1477-product-of-the-last-k-numbers) |
