@@ -15,12 +15,12 @@ public:
                 return false;
             }
         }
-        for(int i=0;i<t.size();i++){
-            if(m1.count(t[i])==0||m1[t[i]]!=m2[t[i]]){
-                cout<<"hey";
-                return false;
-            }
-        }
+        // for(int i=0;i<t.size();i++){
+        //     if(m1.count(t[i])==0||m1[t[i]]!=m2[t[i]]){
+        //         cout<<"hey";
+        //         return false;
+        //     }
+        // }
         return true;
     }
 };
