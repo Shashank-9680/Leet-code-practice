@@ -582,6 +582,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
 | [2050-count-good-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2050-count-good-numbers) |
 ## Enumeration
 |  |
@@ -629,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search Tree
 |  |
