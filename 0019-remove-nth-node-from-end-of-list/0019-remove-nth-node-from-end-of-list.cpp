@@ -9,56 +9,35 @@
  * };
  */
 class Solution {
-    ListNode*reverse(ListNode*head){
-         if(head==NULL||head->next==NULL){
-            return head;
-        }
-        ListNode *current=head;
-        ListNode*newHead=NULL;
-        ListNode* prev=NULL;
-         ListNode*nextNode=NULL;
-        while(current!=NULL){
-            nextNode=current->next;
-            current->next=prev;
-            
-             prev = current;
-            current = nextNode;
-           
-        }
-        newHead=prev;
-        return newHead;
-    }
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        // ListNode*temp=head;
-         if(head==NULL||head->next==NULL){
-           return NULL;
-       }
-        ListNode*newHead=reverse(head);
-      
-        if(n==1){
-            
-            ListNode*temp=newHead;
-            newHead=newHead->next;
-            delete temp;
-           
-            reverse(newHead);
+        int length=0;
+        ListNode*curr=head;
+        while(curr){
+            length++;
+            curr=curr->next;
+        }
+        int index=length-n;
+        if(length==1) return NULL;
+        curr=head;
+        int count=0;
+        ListNode*prev=NULL;
+        while(count!=index){
+            prev=curr;
+            curr=curr->next;
+            count++;
+        }
+        if(curr==head){
+            head=head->next;
+            curr->next=NULL;
+            delete curr;
             return head;
         }
-        int count=0;
-        ListNode*temp=newHead;
-        ListNode *prev = NULL;
-        while(temp){
-            count++;
-            if(count==n){
-                prev->next=temp->next;
-                  delete temp;
-              break;
-            }
-            prev = temp;
-         temp = temp->next;
+        ListNode*nextNode=curr->next;
+        if(prev){
+          prev->next=nextNode;
         }
-        head=reverse(newHead);
+        delete curr;
         return head;
     }
 };
