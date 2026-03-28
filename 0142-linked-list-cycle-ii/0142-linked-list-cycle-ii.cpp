@@ -7,20 +7,23 @@
  * };
  */
 class Solution {
+    ListNode*find(ListNode*slow,ListNode*fast,ListNode*head){
+       fast=head;
+       while(fast!=slow){
+        fast=fast->next;
+        slow=slow->next;
+       }
+       return fast;
+    }
 public:
     ListNode *detectCycle(ListNode *head) {
-         ListNode*fast=head;
-        ListNode*slow=head;
+           ListNode*slow=head;
+        ListNode*fast=head;
         while(fast!=NULL&&fast->next!=NULL){
-            slow=slow->next;
             fast=fast->next->next;
-            if(slow==fast){
-                slow=head;
-                while(slow!=fast){
-                    slow=slow->next;
-                    fast=fast->next;
-                }
-                return slow;
+            slow=slow->next;
+            if(fast==slow){
+                return find(slow,fast,head);
             }
         }
         return NULL;
