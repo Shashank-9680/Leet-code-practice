@@ -9,35 +9,23 @@
  * };
  */
 class Solution {
-     ListNode* middleNode(ListNode* head) {
-       ListNode*fast=head;
-        ListNode*slow=head;
-         
-        while(fast!=NULL&&fast->next!=NULL){
-           
-            slow=slow->next;
-            fast=fast->next->next;
-        }
-        return slow;
-    }
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        ListNode*Middle=middleNode(head);
-        ListNode*temp=head;
+        ListNode*slow=head;
+        ListNode*fast=head;
         ListNode*prev=NULL;
-        
-      
-        while(temp!=Middle){
-            prev=temp;
-            temp=temp->next;
+        while(fast!=NULL&&fast->next!=NULL){
+            prev=slow;
+           slow=slow->next;
+           fast=fast->next->next;  
         }
-        if(prev==NULL){
+        if(slow==head){
             return NULL;
         }
-            if(temp==Middle){
-                prev->next=temp->next;
-                delete temp;
-            }
-        return head;
+       ListNode*nextNode=slow->next;
+       prev->next=nextNode;
+       delete slow;
+       return head;
+
     }
 };
