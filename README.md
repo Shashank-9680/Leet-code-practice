@@ -251,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0145-binary-tree-postorder-traversal) |
+| [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [1021-remove-outermost-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -544,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
+| [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2551-apply-operations-to-an-array) |
@@ -591,6 +593,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [2050-count-good-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2050-count-good-numbers) |
 ## Enumeration
 |  |
@@ -641,6 +644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search Tree
 |  |
