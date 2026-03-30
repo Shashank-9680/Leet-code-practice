@@ -416,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0242-valid-anagram) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0451-sort-characters-by-frequency) |
@@ -536,6 +537,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2280-count-good-triplets-in-an-array) |
 ## Two Pointers
@@ -545,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0876-middle-of-the-linked-list) |
@@ -612,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Merge Sort
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2280-count-good-triplets-in-an-array) |
 ## Monotonic Queue
 |  |
@@ -646,6 +650,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0328-odd-even-linked-list) |
