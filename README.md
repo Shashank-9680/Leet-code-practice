@@ -547,6 +547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0005-longest-palindromic-substring) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
@@ -652,6 +653,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0061-rotate-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
