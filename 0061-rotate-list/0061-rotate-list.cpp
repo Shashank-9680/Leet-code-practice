@@ -9,50 +9,50 @@
  * };
  */
 class Solution {
-int totalElements(ListNode*head){
-    int count=0;
-    ListNode*temp=head;
-    while(temp){
-        count++;
-        temp=temp->next;
-    }
-    return count;
-}
-ListNode*findNminusk(ListNode*head,int k,int n){
-    int count=0;
-    ListNode*temp=head;
-    while(temp){
-        count++;
-        if(count==n-k){
-           return temp; 
-        }
-        temp=temp->next;
-    }
-    return temp;
-}
-public:
-    ListNode* rotateRight(ListNode* head, int k) {
-    
-  int n=totalElements(head);
-        if(head==NULL){
-            return NULL;
-        }
-        if(k%n==0){
-            return head;
-        }
-        else{
-            k=k%n;
-        }
-        ListNode*findNMinusk=findNminusk(head,k,n);
+    ListNode*reverse(ListNode*head){
+        ListNode*prev=NULL;
         ListNode*temp=head;
-        while(temp->next){
+        while(temp){
+            ListNode*nextNode=temp->next;
+            temp->next=prev;
+            prev=temp;
+            temp=nextNode;
+        }
+        return prev;
+    }
+    int Length(ListNode*head){
+        ListNode*temp=head;
+        int count=0;
+        while(temp){
+            count++;
             temp=temp->next;
         }
-      temp->next=head;
-        head=findNMinusk->next;
-            
-        findNMinusk->next=nullptr;
-         return head;
+        return count;
     }
-   
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+       ListNode*newHead=reverse(head);
+    //    cout<<newHead->val;
+       int n=Length(newHead);
+       if(head==NULL) return head;
+       cout<<n;
+       k=k%n;
+       cout<<k;
+       if(k==0) return reverse(newHead);
+       cout<<k;
+       ListNode*temp=newHead;
+       int count=1;
+       while(count!=k){
+        count++;
+        temp=temp->next;
+       }
+
+       ListNode*node=temp->next;
+       temp->next=NULL;
+       ListNode*newwHead=reverse(newHead);
+       ListNode*newNode=reverse(node);
+       
+       newHead->next=newNode;
+       return newwHead;
+    }
 };
