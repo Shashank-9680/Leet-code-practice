@@ -9,67 +9,57 @@
  * };
  */
 class Solution {
-    ListNode* reverseList(ListNode* head) {
-        if(head==NULL||head->next==NULL){
-            return head;
-        }
-        ListNode *current=head;
-        ListNode*newHead=NULL;
-        ListNode* prev=NULL;
-         ListNode*nextNode=NULL;
-        while(current!=NULL){
-            nextNode=current->next;
-            current->next=prev;
-            
-             prev = current;
-            current = nextNode;
-           
-        }
-        newHead=prev;
-        return newHead;
-    }
-    
-    ListNode*findKthNode(ListNode*head,int k){
-        int count=0;
-        ListNode*temp=head;
-        while(temp){
-            count++;
-           
-            if(count==k){
-                return temp;
-            }
-             temp=temp->next;
-            
-        }
-        return head;
-    }
     
 public:
-    ListNode* reverseKGroup(ListNode* head, int k) {
-         ListNode*temp=head;
-        ListNode*(prevNode)=NULL;
-    while(temp!=NULL){
-         ListNode*kNode=findKthNode(temp,k);
-        if(kNode==NULL){
-            if(prevNode)  prevNode->next=temp;
-            break;
+ListNode*reverse(ListNode*head){
+        ListNode*prev=NULL;
+        ListNode*temp=head;
+        while(temp){
+            ListNode*nextNode=temp->next;
+            temp->next=prev;
+            prev=temp;
+            temp=nextNode;
         }
-       ListNode*nextNode=kNode->next;  
-       
-        kNode->next=nullptr;
-        ListNode*newHead=reverseList(temp);
-        if(temp==head){
-            head=newHead;
-        }
-        else{
-             prevNode->next=kNode; 
-          
-        }
-          prevNode=temp;
-        temp=nextNode;
-            
+        return prev;
     }
-        return head;
-    }    
-   
+    int Length(ListNode*head){
+        ListNode*temp=head;
+        int count=0;
+        while(temp){
+            count++;
+            temp=temp->next;
+        }
+        return count;
+    }
+    ListNode* reverseKGroup(ListNode* head, int k) {
+    int n = Length(head);
+
+    ListNode* dummy = new ListNode(-1);
+    ListNode* curr = dummy;
+    ListNode* temp = head;
+
+    for(int i = 0; i < n/k; i++){
+        ListNode* groupStart = temp;
+
+        int count = 1;
+        while(count != k){
+            temp = temp->next;
+            count++;
+        }
+
+        ListNode* nextNode = temp->next;
+        temp->next = NULL;
+
+        curr->next = reverse(groupStart);
+
+        while(curr->next){
+            curr = curr->next;
+        }
+
+        temp = nextNode;
+    }
+
+    curr->next = temp;
+    return dummy->next;
+}
 };
