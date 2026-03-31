@@ -1,11 +1,9 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-struct Node {
+/*
+class Node {
+public:
     int data;
-    struct Node *next;
-    struct Node *bottom;
+    Node* next;
+    Node* bottom;
 
     Node(int x) {
         data = x;
@@ -13,125 +11,45 @@ struct Node {
         bottom = NULL;
     }
 };
-
-void printList(Node *Node) {
-    while (Node != NULL) {
-        printf("%d ", Node->data);
-        Node = Node->bottom;
-    }
-    printf("\n");
-}
-
-
-// } Driver Code Ends
-/* Node structure  used in the program
-
-struct Node{
-    int data;
-    struct Node * next;
-    struct Node * bottom;
-
-    Node(int x){
-        data = x;
-        next = NULL;
-        bottom = NULL;
-    }
-
-};
 */
 
 class Solution {
-    Node*merge(Node*temp1,Node*temp2){
-        Node*newHead=new Node(-1);
-        Node*currHead=newHead;
-        while(temp1!=NULL&&temp2!=NULL){
-            if(temp1->data>temp2->data){
-                newHead->bottom=temp2;
-                newHead=newHead->bottom;
-                temp2=temp2->bottom;
+    
+    Node* merge(Node* a, Node* b){
+        Node* dummy = new Node(-1);
+        Node* curr = dummy;
+
+        while(a && b){
+            if(a->data <= b->data){
+                curr->bottom = a;
+                a = a->bottom;
+            } else {
+                curr->bottom = b;
+                b = b->bottom;
             }
-            else if(temp1->data<=temp2->data){
-                newHead->bottom=temp1;
-                newHead=newHead->bottom;
-                temp1=temp1->bottom;
-            }
-            else{
-                 newHead->next=temp1;
-                  newHead=newHead->bottom;
-                  temp1=temp1->bottom;
-                  temp2=temp2->bottom;
-            }
+            curr = curr->bottom;
         }
-       if(temp1!=NULL){
-            newHead->bottom=temp1;
-        }
-        if(temp2!=NULL){
-             newHead->bottom=temp2;
-        }
-    return currHead->bottom;
+
+        if(a) curr->bottom = a;
+        if(b) curr->bottom = b;
+
+        return dummy->bottom;
     }
   public:
-    // Function which returns the  root of the flattened linked list.
-    Node *flatten(Node *root) {
-     if(root==NULL||root->next==NULL){
-        return root;
+  
+    Node*dfs(Node*temp){
+        if(temp->next&&temp->next->next==NULL){
+            return merge(temp,temp->next);
+        }
+        Node*node=dfs(temp->next);
+        return merge(temp,node);
     }
-     Node*mergedHead=flatten(root->next);
-     Node*head=merge(mergedHead,root);
-  return head;
+    Node *flatten(Node *root) {
+        Node*temp=root;
+        if(temp->next==NULL){
+            return root;
+        }
+        return dfs(temp);
+        
     }
 };
-
-
-//{ Driver Code Starts.
-
-int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        vector<int> work;
-        string input;
-        getline(cin, input); // Read the entire line for the array elements
-        getline(cin, input); // Read the entire line for the array elements
-        stringstream ss(input);
-        int number;
-        while (ss >> number) {
-            work.push_back(number);
-        }
-        n = work.size();
-
-        Node *head = NULL;
-        Node *pre = NULL;
-
-        for (int i = 0; i < n; i++) {
-            int m = work[i] - 1;
-            int data;
-            cin >> data;
-            Node *temp = new Node(data);
-            if (head == NULL) {
-                head = temp;
-                pre = temp;
-            } else {
-                pre->next = temp;
-                pre = temp;
-            }
-
-            Node *preB = temp;
-            for (int j = 0; j < m; j++) {
-                int temp_data;
-                cin >> temp_data;
-                Node *tempB = new Node(temp_data);
-                preB->bottom = tempB;
-                preB = tempB;
-            }
-        }
-
-        Solution ob;
-        Node *root = ob.flatten(head);
-        printList(root);
-    }
-    return 0;
-}
-
-// } Driver Code Ends
