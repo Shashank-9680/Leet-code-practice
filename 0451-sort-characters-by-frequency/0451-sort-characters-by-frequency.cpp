@@ -11,8 +11,8 @@ public:
         vector<pair<int,char>>v;
         for(auto it:m){
             v.push_back({it.second,it.first});
-            sort(v.begin(),v.end(),comp);
         }
+         sort(v.begin(),v.end(),comp);
          string ans="";
     for(auto it:v){
         for(int i=0;i<it.first;i++){
