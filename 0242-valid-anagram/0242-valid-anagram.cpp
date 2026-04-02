@@ -9,18 +9,14 @@ public:
         for(auto it:t){
             m2[it]++;
         }
+
         for(int i=0;i<s.size();i++){
-            if(m2.count(s[i])==0||m2[s[i]]!=m1[s[i]]){
-                cout<<"shashank";
+            if(m2.count(s[i])==0 || m1[s[i]]!=m2[s[i]]){
                 return false;
             }
         }
-        // for(int i=0;i<t.size();i++){
-        //     if(m1.count(t[i])==0||m1[t[i]]!=m2[t[i]]){
-        //         cout<<"hey";
-        //         return false;
-        //     }
-        // }
+
         return true;
+
     }
 };
