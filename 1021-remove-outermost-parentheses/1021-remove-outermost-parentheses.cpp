@@ -8,14 +8,13 @@ public:
             if(s[i]=='('){
                 count++;
             }
-             if(s[i]==')'){
+            else if(s[i]==')'){
                 count--;
+                if(count==0){
+                    ans+=s.substr(index+1,i-index-1);
+                    index=i+1;
+                }
             }
-            if(count==0){
-              ans+=s.substr(index+1,i-index-1);
-              index=i+1;
-            }
-            
         }
         return ans;
     }
