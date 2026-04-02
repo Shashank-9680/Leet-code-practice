@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
+| [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0733-flood-fill](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0733-flood-fill) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [0778-reorganize-string](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0145-binary-tree-postorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [1021-remove-outermost-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Shashank-9680/Leet-code-practice/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -684,4 +687,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0451-sort-characters-by-frequency) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
