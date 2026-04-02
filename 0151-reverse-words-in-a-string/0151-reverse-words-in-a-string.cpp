@@ -1,35 +1,31 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        vector<string>ans;
         int i=0;
         int n=s.size();
-
+        vector<string>ans;
         while(i<n){
-            while(i<n&&s[i]==' '){
+            while(i<n&& s[i]==' '){
                 i++;
             }
-            int j=i;
             if(i==n) break;
+            int j=i;
             while(i<n&&s[i]!=' '){
                 i++;
             }
-            string temp="";
-            temp+=s.substr(j,i-j);
-            ans.push_back(temp);
+            ans.push_back(s.substr(j,i-j));
         }
+
         reverse(ans.begin(),ans.end());
-        for(auto it:ans){
-            cout<<it;
+        string word="";
+        n=ans.size();
+        for(int i=0;i<n;i++){
+           word+=ans[i];
+           if(i!=n-1){
+            word+=" ";
+           }
         }
-        string result="";
-        int a=ans.size();
-        for(int i=0;i<ans.size();i++){
-            result+=ans[i];
-            if(i!=a-1){
-                result+=" ";
-            }
-        }
-        return result;
+        return word;
+
     }
 };
