@@ -8,12 +8,10 @@ public:
         for(int i=0;i<s.size();i++){
            if(s[i]=='('){
             open++;
-            count++;
            }
            if(s[i]==')'){
+              maxi=max(maxi,open);
               open--;
-              maxi=max(count,maxi);
-              count--;
             
            }
         }
