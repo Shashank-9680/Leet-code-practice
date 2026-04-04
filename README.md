@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0014-longest-common-prefix) |
 | [0053-maximum-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0053-maximum-subarray) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0053-maximum-subarray) |
+| [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0144-binary-tree-preorder-traversal) |
@@ -336,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0200-number-of-islands) |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
@@ -701,6 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0503-next-greater-element-ii) |
