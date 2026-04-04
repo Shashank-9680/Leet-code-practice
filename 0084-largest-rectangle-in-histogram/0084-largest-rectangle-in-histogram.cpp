@@ -1,45 +1,46 @@
 class Solution {
-public:
-    int largestRectangleArea(vector<int>& arr) {
-         long long int sum=0;
-        int n=arr.size();
-    stack<int>s1,s2;
-        vector<int>v1(n),v2(n);
-        for(int i=n-1;i>=0;i--){
-            while(!s1.empty()&&arr[s1.top()]>=arr[i]){
-                s1.pop();
-            }
-            if(!s1.empty()){
-                  v1[i] = s1.top() ;
-            }
-            else{
-                v1[i] =n;
-            }
-            s1.push(i);
-        }
-        
-         for(int i=0;i<n;i++){
-             
-       while(!s2.empty()&&arr[s2.top()]>arr[i])
-        {
-           s2.pop();
-        };
-  
-   if(!s2.empty()){
-      v2[i] = s2.top();
-   }
-   else{
-      v2[i]=-1;
-   }
-   s2.push(i);
-         }
-       int maxArea = 0;
-        for (int i = 0; i < n; ++i) {
-            int width = v1[i] - v2[i] - 1;
-            int area = arr[i] * width;
-            maxArea = max(maxArea, area);
-        }
 
-        return maxArea;
+    void findNextRightsSmaller(vector<int>&heights,vector<int>&rightSmaller,int n){
+        stack<pair<int,int>>st;
+        for(int i=n-1;i>=0;i--){
+           while(!st.empty()&& st.top().first>=heights[i]){
+             st.pop();
+           }
+          
+           if(st.empty()) rightSmaller[i]=n;
+           else rightSmaller[i]= st.top().second;
+           
+           st.push({heights[i],i});
+        }
+    }
+
+     void findPrevLeftSmaller(vector<int>&heights,vector<int>&leftSmaller,int n){
+        stack<pair<int,int>>st;
+        for(int i=0;i<n;i++){
+           while(!st.empty()&&st.top().first>heights[i]){
+             st.pop();
+           }
+          
+           if(st.empty()) leftSmaller[i]=-1;
+           else leftSmaller[i]= st.top().second;
+           
+           st.push({heights[i],i});
+        }
+    }
+public:
+    int largestRectangleArea(vector<int>& heights) {
+        int n=heights.size();
+        vector<int>rightSmaller(n);
+        vector<int>leftSmaller(n);
+        findNextRightsSmaller(heights,rightSmaller,n);
+        findPrevLeftSmaller(heights,leftSmaller,n);
+        int maxi=INT_MIN;
+        for(int i=0;i<n;i++){
+            int leftCount= i-leftSmaller[i]-1;
+            int rightCount=rightSmaller[i]-i;
+            int total=leftCount+rightCount;
+            maxi=max(heights[i]*total,maxi);
+        }
+        return maxi;
     }
 };
