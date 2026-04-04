@@ -1,31 +1,51 @@
 class Solution {
 public:
-    string removeKdigits(string nums, int k) {
+    string removeKdigits(string num, int k) {
         stack<char>st;
-     string result;
-      for(int i=0;i<nums.size();i++){
-            while(!st.empty()&&nums[i]<st.top()&&k>0){
+        int count=0;
+    
+        for(int i=0;i<num.size();i++){
+            while(!st.empty()&&st.top()>num[i]){
+                if(count==k) break;
+                count++;
                 st.pop();
-                k--;
             }
-            if(!st.empty()||nums[i]!='0'){
-              st.push(nums[i]);
-            }
-         
+            st.push(num[i]);
+        }
+
+        while(count!=k){
+            count++;
+            st.pop();
+        }
+
+        string str="";
+        if(st.empty()) return "0";
         
+        while(!st.empty()){
+            str+=st.top();
+            st.pop();
+        }
+
+        reverse(str.begin(),str.end());
+        bool val=false;
+        for(int i=0;i<str.size();i++){
+            if(str[i]!='0'){
+                val=true;
+            }
+        }
+        if(!val) return "0";
+        int i=0;
+
+        while(i<str.size()){
+            if(str[i]!='0'){
+               break;
+            }
+           
+          i++;
             
         }
-          while (!st.empty() && k > 0) {
-            st.pop();
-            k--;
-        } 
-        
-        while (!st.empty()) {
-            result.push_back(st.top());
-            st.pop();
-        }
-        reverse(result.begin(), result.end());
-       
-     return result.empty() ? "0" : result;
+        return str.substr(i,str.size()-i);
+
+
     }
 };
