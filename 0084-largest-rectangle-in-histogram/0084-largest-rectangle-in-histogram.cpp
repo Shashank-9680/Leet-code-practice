@@ -1,45 +1,26 @@
 class Solution {
-
-    void findNextRightsSmaller(vector<int>&heights,vector<int>&rightSmaller,int n){
-        stack<pair<int,int>>st;
-        for(int i=n-1;i>=0;i--){
-           while(!st.empty()&& st.top().first>=heights[i]){
-             st.pop();
-           }
-          
-           if(st.empty()) rightSmaller[i]=n;
-           else rightSmaller[i]= st.top().second;
-           
-           st.push({heights[i],i});
-        }
-    }
-
-     void findPrevLeftSmaller(vector<int>&heights,vector<int>&leftSmaller,int n){
-        stack<pair<int,int>>st;
-        for(int i=0;i<n;i++){
-           while(!st.empty()&&st.top().first>heights[i]){
-             st.pop();
-           }
-          
-           if(st.empty()) leftSmaller[i]=-1;
-           else leftSmaller[i]= st.top().second;
-           
-           st.push({heights[i],i});
-        }
-    }
 public:
     int largestRectangleArea(vector<int>& heights) {
         int n=heights.size();
-        vector<int>rightSmaller(n);
-        vector<int>leftSmaller(n);
-        findNextRightsSmaller(heights,rightSmaller,n);
-        findPrevLeftSmaller(heights,leftSmaller,n);
-        int maxi=INT_MIN;
+        stack<int>st;
+        int maxi=0;
         for(int i=0;i<n;i++){
-            int leftCount= i-leftSmaller[i]-1;
-            int rightCount=rightSmaller[i]-i;
-            int total=leftCount+rightCount;
-            maxi=max(heights[i]*total,maxi);
+            while(!st.empty()&&heights[st.top()]>=heights[i]){
+                int ns=i;
+                int element=st.top();
+                st.pop();
+                int prev=st.empty()?-1:st.top();
+                maxi=max(maxi,((ns-prev-1)*heights[element]));
+            }
+             st.push(i);
+        }
+
+        while(!st.empty()){
+            int ns=n;
+            int element=st.top();
+            st.pop();
+            int ps=st.empty()?-1:st.top();
+            maxi=max(maxi,((ns-ps-1)*heights[element]));
         }
         return maxi;
     }
