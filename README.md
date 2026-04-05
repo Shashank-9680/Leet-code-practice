@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0242-valid-anagram) |
@@ -465,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0146-lru-cache) |
 | [0225-implement-stack-using-queues](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0225-implement-stack-using-queues) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -689,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0206-reverse-linked-list) |
@@ -718,4 +721,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0907-sum-of-subarray-minimums) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
