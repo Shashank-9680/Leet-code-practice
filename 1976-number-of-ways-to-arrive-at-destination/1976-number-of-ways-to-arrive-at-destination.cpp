@@ -34,7 +34,6 @@ public:
                     pq.push({dist[adjNode], adjNode});
                     ways[adjNode] = ways[node];
                 }
-
                 else if(dis + wt == dist[adjNode]){
                     ways[adjNode] = (ways[adjNode] + ways[node]) % MOD;
                 }
