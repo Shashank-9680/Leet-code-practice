@@ -1,13 +1,14 @@
 class Solution {
   public:
     vector<int> shortestPath(int V, vector<vector<int>> &edges, int src) {
-        // code here
         vector<int>adj[V];
         for(auto it:edges){
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+            int u=it[0];
+            int v=it[1];
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
-        vector<int>dist(V,1e9);
+        vector<int>dist(V,INT_MAX);
         queue<int>q;
         q.push(src);
         dist[src]=0;
@@ -22,10 +23,11 @@ class Solution {
             }
         }
         for(int i=0;i<V;i++){
-            if(dist[i]==1e9){
+            if(dist[i]==INT_MAX){
                 dist[i]=-1;
             }
         }
         return dist;
+        
     }
 };
