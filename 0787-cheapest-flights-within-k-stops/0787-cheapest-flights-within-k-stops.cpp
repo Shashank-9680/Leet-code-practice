@@ -5,33 +5,38 @@ public:
         for(auto it:flights){
             adj[it[0]].push_back({it[1],it[2]});
         }
-        vector<int>dist(n,1e9);
+
         priority_queue<
             pair<int,pair<int,int>>,
             vector<pair<int,pair<int,int>>>,
             greater<pair<int,pair<int,int>>>
         > pq;
-
-        pq.push({0,{src,0}});
+        int count=0;
+        pq.push({count,{0,src}});
+        vector<int>dist(n,INT_MAX);
         dist[src]=0;
-        int ans=INT_MAX;
         while(!pq.empty()){
-            int stops=pq.top().first;
-            int node=pq.top().second.first;
-            int dis=pq.top().second.second;
+            int remCount=pq.top().first;
+            int cost=pq.top().second.first;
+            int node=pq.top().second.second;
+             
             pq.pop();
-            if(stops>k){
-                continue;
+
+            if(remCount>k){
+                if(node==dst) return dist[dst];
+                else{
+                    continue;
+                }
             }
+
             for(auto it:adj[node]){
-                int adjNode=it.first;
-                if(dis+it.second<dist[adjNode]&&stops<=k){
-                    dist[adjNode]=dis+it.second;
-                    pq.push({stops+1,{adjNode,  dist[adjNode]}});
-                } 
+               if(it.second+cost<dist[it.first]){
+                dist[it.first]=it.second+cost;
+                pq.push({remCount+1,{dist[it.first],it.first}});
+               }
             }
         }
-     if(dist[dst]==1e9) return -1;
-     return dist[dst];
+        if(dist[dst]==INT_MAX) return -1;
+        return dist[dst];
     }
 };
