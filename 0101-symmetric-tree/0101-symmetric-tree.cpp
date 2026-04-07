@@ -29,9 +29,9 @@ public:
         if(root->left&&root->right==NULL){
             return false;
         }
-        if(root->right&&root->left==NULL){
-            return false;
-        }
+        // if(root->right&&root->left==NULL){
+        //     return false;
+        // }
         TreeNode*temp1=root->left;
         TreeNode*temp2=root->right;
         if(!dfs(temp1,temp2)){
