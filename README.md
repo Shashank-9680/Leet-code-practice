@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -482,6 +483,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0797-rabbits-in-forest) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1477-product-of-the-last-k-numbers) |
@@ -725,4 +727,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0146-lru-cache) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
