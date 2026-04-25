@@ -1,14 +1,14 @@
 class Solution {
     int findMinSum(int i, int j, vector<vector<int>>&grid, vector<vector<int>>&dp){
         if(i==0&&j==0) return grid[i][j];
-        if(i<0||j<0) return INT_MAX;
+        if(i<0||j<0) return 1e9;
         if(dp[i][j]!=-1) return dp[i][j];
-        int up = findMinSum(i-1, j, grid,dp);
-    int left = findMinSum(i, j-1, grid,dp);
+        int up = grid[i][j] +findMinSum(i-1, j, grid,dp);
+    int left = grid[i][j]+findMinSum(i, j-1, grid,dp);
 
-    int sum1 = (up == INT_MAX) ? INT_MAX : grid[i][j] + up;
-    int sum2 = (left == INT_MAX) ? INT_MAX : grid[i][j] + left;
-         return dp[i][j]= min(sum1,sum2);
+    // int sum1 = (up == INT_MAX) ? INT_MAX : grid[i][j] + up;
+    // int sum2 = (left == INT_MAX) ? INT_MAX : grid[i][j] + left;
+         return dp[i][j]= min(up,left);
 
     }
 public:
