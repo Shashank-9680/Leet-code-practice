@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0198-house-robber) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0542-01-matrix) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0787-cheapest-flights-within-k-stops) |
