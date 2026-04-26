@@ -1,28 +1,22 @@
 class Solution {
-    int count(int n,int amount,vector<int>coins,vector<vector<int>>&dp){
-       // if (amount == 0) {
-       //      return 1;
-       //  }
-        
-        // If no coins left or amount is negative, no valid way to form the amount
-      
-        if(n==0){
-            return (amount%coins[n]==0); 
+    int find(int i, int amount, vector<int>&coins,vector<vector<int>>&dp){
+        if(amount==0) return 1;
+        if(i==0){
+            if(amount%coins[0]==0) return 1;
+            return 0;
         }
-      
-        if(dp[n][amount]!=-1) return dp[n][amount];
-        int notpick=count(n-1,amount,coins,dp);
-        int pick=0;
-        if(coins[n]<=amount){
-            pick=count(n,amount-coins[n],coins,dp);
-            
+        if(dp[i][amount]!=-1) return dp[i][amount];
+        int take=0;
+        if(amount>=coins[i]){
+             take=find(i,amount-coins[i],coins,dp);
         }
-        return dp[n][amount]=pick+notpick;
+        int notTake=find(i-1,amount,coins,dp);
+        return dp[i][amount]=take+notTake;
     }
 public:
     int change(int amount, vector<int>& coins) {
         int n=coins.size();
-       vector<vector<int>>dp(n,vector<int>(amount+1,-1));
-        return count(n-1,amount,coins,dp);
+        vector<vector<int>>dp(n,vector<int>(amount+1,-1));
+        return find(n-1,amount,coins,dp);
     }
 };
