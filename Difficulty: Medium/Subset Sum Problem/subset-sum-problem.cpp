@@ -1,29 +1,17 @@
 class Solution {
-    bool find(int i, int target, vector<int>&arr,vector<vector<int>>&dp){
-        if(target==0){
+    bool find(int i, int sum, vector<int>&arr, vector<vector<int>>&dp){
+        if(sum==0){
             return true;
         }
-        if(i==0){
-            if(target==arr[0]){
-                return true;
-            }
-            else{
-                return false;
-            }
+        if(i==0) return arr[0]==sum;
+        if(dp[i][sum]!=-1) return dp[i][sum];
+        int pick=false;
+        if(sum>=arr[i]){
+            pick=find(i-1,sum-arr[i],arr,dp);
         }
-        if(dp[i][target]!=-1) return (dp[i][target]==0 ? false:true);
-        
-       bool take=false;
-       if(target>=arr[i]){
-          take= find(i-1,target-arr[i],arr,dp);
-       }
-        
-        bool notTake=find(i-1,target,arr,dp);
-        
-        bool val= take||notTake;
-        return dp[i][target] = val==true? 1:0;
+        int notpick=find(i-1,sum,arr,dp);
+        return dp[i][sum]= pick||notpick;
     }
-    
   public:
     bool isSubsetSum(vector<int>& arr, int sum) {
         // code here
