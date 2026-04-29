@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-sum-of-subarray-minimums](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0907-sum-of-subarray-minimums) |
 | [1025-minimum-cost-for-tickets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1025-minimum-cost-for-tickets) |
+| [1143-longest-common-subsequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1170-shortest-common-supersequence) |
 | [1463-cherry-pickup-ii](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1463-cherry-pickup-ii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/Shashank-9680/Leet-code-practice/tree/master/0952-word-subsets) |
 | [1021-remove-outermost-parentheses](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1021-remove-outermost-parentheses) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1143-longest-common-subsequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1143-longest-common-subsequence) |
 | [1160-letter-tile-possibilities](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1170-shortest-common-supersequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Shashank-9680/Leet-code-practice/tree/master/1460-number-of-substrings-containing-all-three-characters) |
